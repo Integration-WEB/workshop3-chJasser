@@ -17,7 +17,19 @@ body {
 }
 
 /*============= FOOTER =============*/
-
+ul{
+  max-width: 15rem;
+  
+}
+i{
+  font-size: 2.5rem;
+}
+i{
+  color:white;
+}
+i:hover{
+  color:red;
+}
 /*===== FIXED BACKGROUND IMG =====*/
 .fixed {
   position: fixed;
@@ -59,7 +71,9 @@ body {
 }
 /* Devices under 992px (lg) */
 @media (max-width: 992px) {
-
+  .caption{
+    top: 90%;
+  } 
 }
 /* Devices under 768px (md) */
 @media (max-width: 768px) {
